@@ -1,22 +1,21 @@
-
-
-/* main text color #757575 */
-/* second text color #212121 */
-/* accent color #2196F3 */
-/* background: #F5F5F5 */
-/* second background: #2F303A */
-
+:root{
+    --primary-text-color:#757575;
+    --secondary-text-color:#FFFFFF;
+    --accent-color:#2196F3;
+    --primary-background:#FFFFFF;
+    --secondary-background:#2F303A;
+    --titles-color:#212121; 
+    }
 
 /* global */
-.page{
-    background-color:#F5F5F5;
-    color: #757575;
-}
 
+.page{
+    background-color:var(--primary-background);
+    color: var(--primary-text-color);
+}
 ul{
     list-style: none;
 }    
-
 a{
     text-decoration: none;
 }
@@ -24,6 +23,7 @@ a{
 /* Header */
 
     /* logo */
+
 .logo{
     color: #000000;
 }
@@ -31,6 +31,10 @@ a{
     color: #2196F3;}
 
     /* site-nav */
+.site-nav .link-nav.current{
+    color: #2196F3;
+}
+
 .site-nav .link-nav{
     color: #212121;
 }
@@ -50,6 +54,77 @@ a{
 }
 
 /* Main */
+
+.hero{
+    background-color: var(--secondary-background);
+}
+/* Hero */
+
+.hero .title {
+    color:#FFFFFF;
+ }
+ .hero .button {
+    background-color:var(--accent-color) ;
+    color: var(--secondary-text-color);
+ }
+ /* Festure */
+
+ .feature .title{
+    color: #212121;
+ }
+
+ /* What do we do */
+
+ .work-title{
+    color: #212121;
+ }
+
+ /* Our ream */
+
+ .team-title{
+    color: #212121;
+ }
+ .team .name{
+    color: #212121;
+ }
+
+ /* Footer */
+
+ .footer{
+    background-color: var(--secondary-background);
+ }
+ .logo-white{
+    color: var(--secondary-text-color);
+ }
+ .address{
+    color: var(--primary-text-color);
+ }
+
+ .address .location{
+    color: var(--secondary-text-color);
+ }
+.address .link{
+    color: var(--primary-text-color);
+}
+
+
+/* Portfolio */
+
+/* Buttons section */
+.title-button .button{
+color: #212121;
+background-color: #F5F4FA;
+}
+.title-button .button:hover,
+.title-button .button:focus{
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
+}
+/* Projects section */
+
+.project h3{
+    color: var(--titles-color);
+}
 
 
 
