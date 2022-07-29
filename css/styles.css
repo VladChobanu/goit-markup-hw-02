@@ -1,0 +1,55 @@
+
+
+/* main text color #757575 */
+/* second text color #212121 */
+/* accent color #2196F3 */
+/* background: #F5F5F5 */
+/* second background: #2F303A */
+
+
+/* global */
+.page{
+    background-color:#F5F5F5;
+    color: #757575;
+}
+
+ul{
+    list-style: none;
+}    
+
+a{
+    text-decoration: none;
+}
+
+/* Header */
+
+    /* logo */
+.logo{
+    color: #000000;
+}
+.logo-blue{
+    color: #2196F3;}
+
+    /* site-nav */
+.site-nav .link-nav{
+    color: #212121;
+}
+.site-nav .link-nav:hover,
+.site-nav .link-nav:focus{
+    color: #2196F3;
+}
+
+    /* connection */
+.connection .link{
+    color: #757575;
+}
+
+.connection .link:hover,
+.connection .link:focus{
+    color: #2196F3;
+}
+
+/* Main */
+
+
+
