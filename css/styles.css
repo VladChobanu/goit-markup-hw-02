@@ -80,27 +80,36 @@ a{
 
 .hero .title {
     color:#FFFFFF;
+
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
+
     letter-spacing: 0.06em;
+    text-align: center
  }
  .hero .button {
     background-color:var(--accent-color) ;
     color: var(--secondary-text-color);
+    cursor: pointer;
+
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
+
+    text-align: center;
     letter-spacing: 0.06em;
  }
  /* Festure */
 
  .feature .title{
     color: #212121;
+    
     font-weight: 700;
     font-size: 14px;
     line-height: 1.4;
- }
+    }
+
  .feature .text{
     font-weight: 400;
     font-size: 14px;
@@ -111,21 +120,28 @@ a{
 
  .work-title{
     color: #212121;
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.7;
+
+    text-align: center;
  }
 
  /* Our ream */
 
  .team-title{
     color: #212121;
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.7;
+
+    text-align: center;
  }
  .team .name{
     color: #212121;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.9;
@@ -150,12 +166,14 @@ a{
 
  .address .location{
     color: var(--secondary-text-color);
+
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
  }
 .address .link{
     color: var(--primary-text-color);
+
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -168,6 +186,8 @@ a{
 .title-button .button{
     color: #212121;
     background-color: #F5F4FA;
+    
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -181,6 +201,8 @@ a{
 
 .project h3{
     color: var(--titles-color);
+
+    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
