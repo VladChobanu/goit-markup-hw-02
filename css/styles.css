@@ -83,10 +83,11 @@ a{
 
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.35;
 
     letter-spacing: 0.06em;
-    text-align: center
+    text-align: center;
+    text-transform: uppercase;
  }
  .hero .button {
     background-color:var(--accent-color) ;
@@ -108,10 +109,10 @@ a{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.4;
+    text-transform: uppercase;
     }
 
  .feature .text{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
  }
@@ -147,7 +148,6 @@ a{
     line-height: 1.9;
  }
  .team .position{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
  }
@@ -174,19 +174,20 @@ a{
  .address .location{
     color: var(--secondary-text-color);
 
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
  }
 .address .link{
-    color: var(--primary-text-color);
+    color: rgba(255, 255, 255, 0.6);
 
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+}    
+.address .link:hover,
+.address .link:focus{
+    color: #2196F3;
 }
-
 
 /* Portfolio */
 
@@ -217,7 +218,6 @@ a{
     letter-spacing: 0.06em
 }
 .project p{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
 }
