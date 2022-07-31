@@ -156,12 +156,19 @@ a{
 
  .footer{
     background-color: var(--secondary-background);
+
+
  }
  .logo-white{
     color: var(--secondary-text-color);
  }
+
+
  .address{
     color: var(--primary-text-color);
+    
+    font-style: normal;
+
  }
 
  .address .location{
@@ -174,6 +181,7 @@ a{
 .address .link{
     color: var(--primary-text-color);
 
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
